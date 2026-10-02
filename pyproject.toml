@@ -17,6 +17,9 @@ dependencies = [
 [project.optional-dependencies]
 dev = ["pytest==9.1.1", "pytest-asyncio==1.4.0"]
 
+[project.urls]
+Repository = "https://github.com/ashisshaw001/oic-mcp-server"
+
 [project.scripts]
 oic-mcp = "oic_mcp.app:main"
 

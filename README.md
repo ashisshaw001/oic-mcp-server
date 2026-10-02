@@ -29,6 +29,7 @@ This is a refactor of [`mkc110891/oic-monitoring-mcp`](https://github.com/mkc110
 ## Quick start (local)
 
 ```bash
+git clone https://github.com/ashisshaw001/oic-mcp-server.git && cd oic-mcp-server
 python3 -m venv .venv && . .venv/bin/activate      # Windows: py -3 -m venv .venv; .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 cp .env.example .env            # set MCP_AUTH_TOKENS
