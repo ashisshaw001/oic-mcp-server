@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+*.ini
+!oic.ini.example
+*.log
+.idea/
+.vscode/
+.mcp.json
+dist/
+build/
+*.egg-info/

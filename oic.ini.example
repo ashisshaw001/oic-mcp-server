@@ -1,0 +1,30 @@
+# OIC environments. One section per environment; the section name is what users and
+# the model call it ("prod", "dev", ...). Comments must be on their own line.
+#
+# Required: url, client_id, client_secret, token_url
+# Optional: scope          - only if your IDCS app needs an explicit scope
+#           instance_name  - OIC's integrationInstance (About page > "Service instance").
+#                            Derived automatically from Gen3 instance URLs; required if
+#                            url is the shared design.integration.* host.
+#
+# Values in [DEFAULT] are inherited by every section.
+
+[DEFAULT]
+token_url = https://idcs-xxxxxxxx.identity.oraclecloud.com/oauth2/v1/token
+
+[prod]
+url = https://myoic-prod-abcdefgh-ph.integration.us-phoenix-1.ocp.oraclecloud.com
+client_id = <prod confidential app client id>
+client_secret = <prod client secret>
+
+[dev]
+url = https://myoic-dev-abcdefgh-ph.integration.us-phoenix-1.ocp.oraclecloud.com
+client_id = <dev client id>
+client_secret = <dev client secret>
+# scope = https://<oic-resource-audience>urn:opc:resource:consumer::all
+
+[uat]
+url = https://design.integration.us-phoenix-1.ocp.oraclecloud.com
+instance_name = myoic-uat-abcdefgh-ph
+client_id = <uat client id>
+client_secret = <uat client secret>

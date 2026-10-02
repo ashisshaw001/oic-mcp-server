@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "oic": {
+      "type": "http",
+      "url": "http://127.0.0.1:8085/mcp",
+      "headers": {
+        "Authorization": "Bearer ${OIC_MCP_TOKEN}"
+      }
+    }
+  }
+}

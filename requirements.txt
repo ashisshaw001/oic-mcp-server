@@ -1,0 +1,6 @@
+mcp==2.2.0
+fastapi==0.142.0
+uvicorn[standard]==0.54.0
+httpx==0.28.1
+pydantic==2.13.5
+pydantic-settings==2.15.0
