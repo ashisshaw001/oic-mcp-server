@@ -7,6 +7,8 @@ several OIC environments, from Fusion AI Agent Studio, Claude, VS Code or your o
 This is a refactor of [`mkc110891/oic-monitoring-mcp`](https://github.com/mkc110891/oic-monitoring-mcp)
 (MIT). Nothing in it changes OIC: every call is a GET.
 
+![How it works: an AI assistant picks one of 36 read-only tools, and every call goes through the same seven steps, from checking the caller to shaping the result](docs/architecture.png)
+
 ## What changed from upstream
 
 | Area | Upstream | Now |
